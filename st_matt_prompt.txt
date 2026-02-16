@@ -1,0 +1,16 @@
+create a web application at ~/Projects/claude/passion_of_st_matthew called St. Matthew Passion 
+
+Take The St. Matthew Passion by Bach and segment it into 40 even parts (as closely as possible but doesn't have to be exact) by length of each section in the oratorio
+
+On the main/landing page it should have an nice header type image at the top that is themed with something Bach, Christian, Bible and Lent related that says:
+St. Matthew Passion: Day (and then show the current day that the user is at) 
+
+Below should be a carousel with button icons for each of the 40 days that scroll/swipe left to right and are highlighted in some one when one is selected
+
+Below the carousel it should have links to each segment of the oratorio for that day that shows the title of the song and is clickable
+
+When the user clicks the link to the piece it opens either a page or a drop down that has a player for that song that you can listen to and below it it has
+two columns side by side with header sections. The left column lists the lyrics in their original language (German) and then the right column lists the 
+same lyrics in their English translation
+
+Make the style for all the type and buttons and graphics and layout and background clean and simple and mordern. 

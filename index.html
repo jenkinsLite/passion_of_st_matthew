@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>St. Matthew Passion - 40 Days of Lenten Devotion</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== HEADER BANNER ===== -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-cross">
+      <div class="cross-vertical"></div>
+      <div class="cross-horizontal"></div>
+    </div>
+    <div class="hero-notes">
+      <svg class="note note-1" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/></svg>
+      <svg class="note note-2" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/></svg>
+      <svg class="note note-3" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/></svg>
+    </div>
+    <div class="hero-content">
+      <p class="hero-subtitle">J. S. Bach &middot; BWV 244</p>
+      <h1 class="hero-title">St. Matthew Passion</h1>
+      <div class="hero-day">
+        Day <span id="hero-day-number">1</span>
+      </div>
+      <p class="hero-segment-title" id="hero-segment-title"></p>
+    </div>
+  </header>
+
+  <!-- ===== DAY CAROUSEL ===== -->
+  <nav class="carousel-wrapper">
+    <button class="carousel-arrow carousel-arrow--left" id="carousel-left" aria-label="Scroll left">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="carousel" id="carousel">
+      <!-- 40 day buttons injected by JS -->
+    </div>
+    <button class="carousel-arrow carousel-arrow--right" id="carousel-right" aria-label="Scroll right">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </nav>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="content" id="content">
+    <!-- Movement cards injected by JS -->
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <p>A Lenten devotion through Bach's <em>Matth&auml;us-Passion</em></p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
