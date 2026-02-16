@@ -1,8 +1,8 @@
 // St. Matthew Passion BWV 244 — Track Data
 // Gardiner recording (Monteverdi Choir / English Baroque Soloists)
-// Apple Music: https://music.apple.com/gb/album/bach-st-matthew-passion-bwv-244/1452138402
+// Apple Music: https://music.apple.com/album/bach-st-matthew-passion-bwv-244/1452138402
 
-const APPLE_MUSIC_ALBUM_URL = 'https://music.apple.com/gb/album/bach-st-matthew-passion-bwv-244/1452138402';
+const APPLE_MUSIC_ALBUM_URL = 'https://music.apple.com/album/bach-st-matthew-passion-bwv-244/1452138402';
 
 const movements = [
   // ======================== DISC 1 — PART ONE ========================
