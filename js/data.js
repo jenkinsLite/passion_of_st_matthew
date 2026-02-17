@@ -680,6 +680,12 @@ function getAppleMusicTrackUrl(movement) {
   return APPLE_MUSIC_ALBUM_URL;
 }
 
+function getAppleMusicEmbedUrl(movement) {
+  const trackId = APPLE_MUSIC_TRACK_IDS[movement.number];
+  if (trackId) return `https://embed.music.apple.com/album/bach-st-matthew-passion-bwv-244/1452138402?i=${trackId}`;
+  return `https://embed.music.apple.com/album/bach-st-matthew-passion-bwv-244/1452138402`;
+}
+
 function formatDuration(minutes) {
   const mins = Math.floor(minutes);
   const secs = Math.round((minutes - mins) * 60);
