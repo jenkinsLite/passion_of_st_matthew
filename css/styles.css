@@ -161,9 +161,11 @@ body {
   display: flex;
   align-items: center;
   gap: .25rem;
+  max-width: 820px;
+  margin: 0 auto;
   background: #fff;
   border-bottom: 1px solid var(--border);
-  padding: .75rem .5rem;
+  padding: .75rem 1.25rem;
   box-shadow: 0 2px 8px var(--shadow);
 }
 
@@ -505,8 +507,9 @@ body {
 
 @media (max-width: 640px) {
   .hero { padding: 2.5rem 1rem 2rem; min-height: 220px; }
-  .lyrics-grid { grid-template-columns: 1fr; }
-  .lyrics-col + .lyrics-col { margin-top: 1.5rem; }
+  .lyrics-grid { gap: .75rem; }
+  .lyrics-col h3 { font-size: .85rem; margin-bottom: .4rem; }
+  .lyrics-text { font-size: .82rem; line-height: 1.55; }
   .movement-header { padding: .85rem 1rem; gap: .75rem; }
   .day-btn { width: 40px; height: 40px; font-size: .8rem; }
 }

@@ -46,7 +46,14 @@
       btn.dataset.day = d;
       btn.setAttribute('aria-label', `Day ${d}`);
       if (visited.has(d)) btn.classList.add('completed');
-      btn.addEventListener('click', () => selectDay(d));
+      btn.addEventListener('click', () => {
+        // If clicking the already-active day, toggle its completed state
+        if (d === currentDay) {
+          toggleVisited(d);
+          return;
+        }
+        selectDay(d);
+      });
       carousel.appendChild(btn);
     }
   }
@@ -231,6 +238,24 @@
     const visited = loadVisitedDays();
     visited.add(day);
     localStorage.setItem(VISITED_KEY, JSON.stringify([...visited]));
+  }
+
+  function unmarkVisited(day) {
+    const visited = loadVisitedDays();
+    visited.delete(day);
+    localStorage.setItem(VISITED_KEY, JSON.stringify([...visited]));
+  }
+
+  function toggleVisited(day) {
+    const visited = loadVisitedDays();
+    if (visited.has(day)) {
+      unmarkVisited(day);
+    } else {
+      markVisited(day);
+    }
+    // Update the button's completed class
+    const btn = carousel.querySelector(`.day-btn[data-day="${day}"]`);
+    if (btn) btn.classList.toggle('completed');
   }
 
   function loadMusicSource() {
