@@ -674,16 +674,55 @@ const APPLE_MUSIC_TRACK_IDS = {
  65: '1452144390', 66: '1452144406', 67: '1452144572', 68: '1452144588'
 };
 
-function getAppleMusicTrackUrl(movement) {
-  const trackId = APPLE_MUSIC_TRACK_IDS[movement.number];
-  if (trackId) return `${APPLE_MUSIC_ALBUM_URL}?i=${trackId}`;
-  return APPLE_MUSIC_ALBUM_URL;
-}
+// Spotify track IDs for each of the 68 sections (Gardiner 2017 SDG recording)
+const SPOTIFY_ALBUM_ID = '0HLXs2zVPKuRwaOkAVGqow';
+const SPOTIFY_TRACK_IDS = {
+  1: '6cGC7PGVDENo8QUgI87Dmy',  2: '3ZK8WvuZJwZrMeIC1ILnY6',
+  3: '6Fe4odj5Tns2HDrSZ2E1FL',  4: '1vWXKN6cKaBVny9bWPL5vD',
+  5: '4QSPp3Fqyarxv4bJR1qTYo',  6: '3mjWCwDa3cQfqfZ4Isj7FI',
+  7: '76AcN1lIxaEyrla4iYCam0',  8: '08lgJgHnJGHzROjnK29OHs',
+  9: '4EWs9Pt0hhhMnHX8LXmnkL', 10: '361RlYLbt2AgSXHLb86amB',
+ 11: '6K3fg6J8lGbKoxJpbJvhk9', 12: '6QSf4ap5mJi5ZUKqZPtEoR',
+ 13: '62yEkktGzX4EO2rOrUUc6F', 14: '01gwKLye5RICt1neW9BwjF',
+ 15: '2xFKgWQ9v0XCIOVOzLxZ70', 16: '0RKstoV2Ey3TidiIwYnoX3',
+ 17: '12W43UDIl9y5kUCBnIZqcY', 18: '3LP9oh8vnZrPkFWuSeKK6N',
+ 19: '3f5jnc59Ml1ELNcYTRrNxQ', 20: '6q7KX5RKbHnEonTiQu9huh',
+ 21: '7voQ6wcjBCqD4WMrbHWEJb', 22: '5AMQcZmfPxIOMokiEyQTG1',
+ 23: '2Zcx15Afc49UB0Z49yQLCg', 24: '3ZVoAYLTjyt1yTaEdAlleF',
+ 25: '23RU6aDbyChWSJKlsz2fdj', 26: '5Rlmy1mF9SSRmmXcdUDt65',
+ 27: '3QwyYhAky3FOPz6G3wJczE', 28: '1INh5HsV1l5OLl6gBAn9El',
+ 29: '2MV5v1pY1naBdm6xO3ACLN', 30: '3x1aV7lS3hh5J0d5Mm3Ad0',
+ 31: '2emYVK27ywItwzCG6PDJeY', 32: '3eInvdRw7GUAcOQOnqJkPU',
+ 33: '6tTPIq8wzDQ3IDR5lRNIYR', 34: '7qpuqHKKogi3uXvPH5tTPe',
+ 35: '6ofxoQZGPIqhZ5PiTdl1IE', 36: '6ePA4DYjsvcpgJWePEpKml',
+ 37: '5UA60Udduc4YuPwX4slqS6', 38: '3oPZHUJ5qEYzJTo7exn42K',
+ 39: '1egsdLgnk37TMTIugIMo7S', 40: '4L9aDTrJ16TbP6bdueL4FC',
+ 41: '64zmR2Tn0nw2HJ9mxmqwwR', 42: '77BqBgy72BXTN7swI4c7Ar',
+ 43: '0UUvmA8MkkF8oSs3NxCPjV', 44: '30zMtCsilFlndzXOkRHfbN',
+ 45: '5DvQKYEFzZM5ujNgday3pK', 46: '6M1sNc8V2am9xptkuz9YeD',
+ 47: '2pCjkOMH3HY4tnGiOvGXaX', 48: '1JJZXM4iXOUuZoCfdwBPi0',
+ 49: '61Z2UxoEUiCeMllTy2dLwT', 50: '65xOWOIuAwivAUrmuoSm5m',
+ 51: '7AnvVUAqHIq4reeayy3WMv', 52: '20f6xGi3iZcepAI67hRbL4',
+ 53: '3zWS11bxTI0Xzosbrv29Dm', 54: '2402997smQRgN8VRKtuzgv',
+ 55: '1UMWgMJETDGjrMY0QpXXRh', 56: '3l8d7JPaC5btRp8jO8PecO',
+ 57: '7ppN9h6RYTfpWWqfDP5Ax1', 58: '5cbbbjKd0LWJobRx732gbx',
+ 59: '0PUpkHLg8ElGnGocxvyfWT', 60: '0LiHfnVwEbsG6TwEFrIoos',
+ 61: '4341zssCrX2Q5JtRBi8cxb', 62: '2SqmoIEXtLJk7XCJpN88bE',
+ 63: '6tg3M60DrpitTEZs1VVruE', 64: '7irNxGjRvUSF8CPUPruheG',
+ 65: '10m6HNE5ISZm0KQZ2ftswm', 66: '1QvWXyigUG3A0BMz4eOaf8',
+ 67: '726jwp3feay7rdLmKzKQb6', 68: '2Cj3gecvDWNoaNr3FuQRnH'
+};
 
 function getAppleMusicEmbedUrl(movement) {
   const trackId = APPLE_MUSIC_TRACK_IDS[movement.number];
   if (trackId) return `https://embed.music.apple.com/album/bach-st-matthew-passion-bwv-244/1452138402?i=${trackId}`;
   return `https://embed.music.apple.com/album/bach-st-matthew-passion-bwv-244/1452138402`;
+}
+
+function getSpotifyEmbedUrl(movement) {
+  const trackId = SPOTIFY_TRACK_IDS[movement.number];
+  if (trackId) return `https://open.spotify.com/embed/track/${trackId}?utm_source=generator&theme=0`;
+  return `https://open.spotify.com/embed/album/${SPOTIFY_ALBUM_ID}?utm_source=generator&theme=0`;
 }
 
 function formatDuration(minutes) {

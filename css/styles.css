@@ -381,12 +381,62 @@ body {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Apple Music embedded player */
-.apple-music-embed {
-  width: 100%;
-  height: 175px;
-  border-radius: 10px;
+/* Player section */
+.player-section {
   margin-bottom: 1.5rem;
+}
+
+.source-selector {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: .75rem;
+}
+
+.source-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .4rem .85rem;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text-secondary);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: .78rem;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.source-btn svg {
+  width: 16px;
+  height: 16px;
+}
+.source-btn:hover {
+  border-color: var(--purple-light);
+  color: var(--text-primary);
+}
+
+.source-btn--apple.active {
+  border-color: #fa233b;
+  background: #fff0f2;
+  color: #fa233b;
+}
+.source-btn--spotify.active {
+  border-color: #1db954;
+  background: #f0faf4;
+  color: #1db954;
+}
+
+/* Embedded players */
+.music-embed {
+  width: 100%;
+  border-radius: 10px;
+}
+.apple-music-embed {
+  height: 175px;
+}
+.spotify-embed {
+  height: 152px;
 }
 
 /* Lyrics columns */
