@@ -463,7 +463,18 @@ body {
   font-size: 1.05rem;
   line-height: 1.7;
   color: var(--text-primary);
-  white-space: pre-line;
+}
+
+.lyrics-block {
+  margin: 0 0 1rem 0;
+}
+
+.lyrics-block u i {
+  display: block;
+  font-size: .85rem;
+  letter-spacing: .04em;
+  color: var(--purple-mid);
+  margin-bottom: .2rem;
 }
 
 /* Empty day state */

@@ -146,11 +146,11 @@
           <div class="lyrics-grid">
             <div class="lyrics-col">
               <h3>Deutsch</h3>
-              <div class="lyrics-text">${escapeHtml(m.german)}</div>
+              <div class="lyrics-text">${renderLyrics(m.german)}</div>
             </div>
             <div class="lyrics-col">
               <h3>English</h3>
-              <div class="lyrics-text">${escapeHtml(m.english)}</div>
+              <div class="lyrics-text">${renderLyrics(m.english)}</div>
             </div>
           </div>
         </div>
@@ -203,6 +203,12 @@
     if (t === 'chorus') return 'movement-type--chorus';
     if (t === 'chorale') return 'movement-type--chorale';
     return 'movement-type--recitative';
+  }
+
+  function renderLyrics(lines) {
+    return lines.map(({s, t}) =>
+      `<p class="lyrics-block"><u><i>${escapeHtml(s)}:</i></u>${escapeHtml(t).replace(/\n/g, '<br>')}</p>`
+    ).join('');
   }
 
   function escapeHtml(str) {

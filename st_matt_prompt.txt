@@ -14,3 +14,6 @@ two columns side by side with header sections. The left column lists the lyrics 
 same lyrics in their English translation
 
 Make the style for all the type and buttons and graphics and layout and background clean and simple and mordern. 
+
+
+where did you get the lyrics (german and english) in the movements array in data.js file for this passion_of_st_matthew project?
