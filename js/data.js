@@ -12,7 +12,7 @@ const movements = [
     titleDe: "Kommt, ihr Töchter, helft mir klagen",
     titleEn: "Come, ye daughters, help me lament",
     voicing: "Chorus I & II, Soprano in ripieno",
-    duration: 8.0,
+    duration: 6.88,
     german: [
       {s: "Chorus I & II", t: "Kommt, ihr Töchter, helft mir klagen,\nSehet! - Wen? - den Bräutigam!\nSeht ihn! - Wie? - als wie ein Lamm.\nSehet! - Was? - seht die Geduld,\nSeht! - Wohin? - auf unsre Schuld.\nSehet ihn aus Lieb und Huld\nHolz zum Kreuze selber tragen."},
       {s: "Soprano in ripieno", t: "O Lamm Gottes unschuldig,\nAm Stamm des Kreuzes geschlachtet,\nAllzeit erfunden geduldig,\nWiewohl du warest verachtet.\nAll Sünd hast du getragen,\nSonst müßten wir verzagen.\nErbarm dich unser, o Jesu."}
@@ -28,7 +28,7 @@ const movements = [
     titleDe: "Da Jesus diese Rede vollendet hatte",
     titleEn: "When Jesus had finished all these sayings",
     voicing: "Evangelist (Tenor), Jesus (Bass)",
-    duration: 1.0,
+    duration: 0.61,
     german: [
       {s: "Evangelist", t: "Da Jesus diese Rede vollendet hatte, sprach er zu seinen Jüngern:"},
       {s: "Jesus", t: "Ihr wisset daß nach zweien Tagen Ostern wird, und des Menschen Sohn wird überantwortet werden, daß er gekreuziget werde."}
@@ -44,7 +44,7 @@ const movements = [
     titleDe: "Herzliebster Jesu, was hast du verbrochen",
     titleEn: "Beloved Jesus, what law hast Thou broken",
     voicing: "Chorus I & II",
-    duration: 1.0,
+    duration: 0.69,
     german: [
       {s: "Chorus", t: "Herzliebster Jesu, was hast du verbrochen,\nDaß man ein solch scharf Urteil hat gesprochen?\nWas ist die Schuld, in was für Missetaten\nBist du geraten?"}
     ],
@@ -58,7 +58,7 @@ const movements = [
     titleDe: "Da versammleten sich die Hohenpriester",
     titleEn: "Then assembled together the chief priests",
     voicing: "Evangelist (Tenor), Jesus (Bass), Chorus I & II",
-    duration: 5.0,
+    duration: 2.98,
     german: [
       {s: "Evangelist", t: "Da versammleten sich die Hohenpriester und Schriftgelehrten und die Ältesten im Volk in den Palast des Hohenpriesters, der da hieß Kaiphas, und hielten Rat, wie sie Jesum mit Listen griffen und töteten. Sie sprachen aber:"},
       {s: "Chorus I & II", t: "Ja nicht auf das Fest, auf daß nicht ein Aufruhr werde im Volk."},
@@ -82,7 +82,7 @@ const movements = [
     titleDe: "Du lieber Heiland du",
     titleEn: "Thou blessed Savior, Thou",
     voicing: "Alto",
-    duration: 1.5,
+    duration: 0.85,
     german: [
       {s: "Alto", t: "Du lieber Heiland du,\nWenn deiner Jünger töricht streiten,\nDaß diese fromme Weib\nMit Salben deinen Leib\nzum Grabe will bereiten,\nSo lasse mir inzwischen zu,\nVon meiner Augen Tränenflüssen\nEin Wasser auf sein Haupt zu gießen!"}
     ],
@@ -96,7 +96,7 @@ const movements = [
     titleDe: "Buß und Reu",
     titleEn: "Grief and pain",
     voicing: "Alto",
-    duration: 5.5,
+    duration: 3.92,
     german: [
       {s: "Alto", t: "Buß und Reu, Buß und Reu\nKnirscht das Sündenherz entzwei.\nDas die Tropfen meiner Zähren\nAngenehme Spezerei,\nTreuer Jesu, dir gebären."}
     ],
@@ -110,7 +110,7 @@ const movements = [
     titleDe: "Da ging hin der Zwölfen einer",
     titleEn: "Then one of the twelve, called Judas Iscariot",
     voicing: "Evangelist (Tenor), Judas (Bass)",
-    duration: 1.0,
+    duration: 0.65,
     german: [
       {s: "Evangelist", t: "Da ging hin der Zwölfen einer mit Namen Judas Ischarioth zu den Hohenpriestern und sprach:"},
       {s: "Judas", t: "Was wollt ihr mir geben? Ich will ihn euch verraten."},
@@ -128,7 +128,7 @@ const movements = [
     titleDe: "Blute nur, du liebes Herz!",
     titleEn: "Bleed and break, thou loving heart!",
     voicing: "Soprano",
-    duration: 4.5,
+    duration: 4.44,
     german: [
       {s: "Soprano", t: "Blute nur, du liebes Herz!\nAch! ein Kind, das du erzogen,\nDas an deiner Brust gesogen,\nDroht den Pfleger zu ermorden,\nDenn es ist zur Schlange worden."}
     ],
@@ -142,7 +142,7 @@ const movements = [
     titleDe: "Aber am ersten Tage der süßen Brot",
     titleEn: "Now on the first day of Unleavened Bread",
     voicing: "Evangelist (Tenor), Jesus (Bass), Chorus I & II",
-    duration: 3.0,
+    duration: 2.07,
     german: [
       {s: "Evangelist", t: "Aber am ersten Tage der süßen Brot traten die Jünger zu Jesu und sprachen zu ihm:"},
       {s: "Chorus I", t: "Wo willst du, daß wir dir bereiten das Osterlamm zu essen?"},
@@ -170,7 +170,7 @@ const movements = [
     titleDe: "Ich bin's, ich sollte büßen",
     titleEn: "'Tis I whose sin doth bind Thee",
     voicing: "Chorus I & II",
-    duration: 1.0,
+    duration: 0.73,
     german: [
       {s: "Chorus", t: "Ich bins, ich sollte büßen,\nAn Händen und an Füßen\nGebunden in der Höll.\nDie Geißeln und die Banden\nUnd was du ausgestanden,\nDas hat verdienet meine Seel."}
     ],
@@ -184,7 +184,7 @@ const movements = [
     titleDe: "Er antwortete und sprach",
     titleEn: "He answered and said",
     voicing: "Evangelist (Tenor), Jesus (Bass), Judas (Bass)",
-    duration: 2.5,
+    duration: 2.74,
     german: [
       {s: "Evangelist", t: "Er antwortete und sprach:"},
       {s: "Jesus", t: "Der mit der Hand mit mir in die Schüssel tauchet, der wird mich verraten. Des Menschen Sohn gehet zwar dahin, wie von ihm geschrieben stehet; doch wehe dem Menschen, durch welchen des Menschen Sohn verraten wird! Es wäre ihm besser, daß derselbige Mensch noch nie geboren wäre."},
@@ -216,7 +216,7 @@ const movements = [
     titleDe: "Wiewohl mein Herz in Tränen schwimmt",
     titleEn: "Though my heart swims in tears",
     voicing: "Soprano",
-    duration: 1.0,
+    duration: 1.31,
     german: [
       {s: "Soprano", t: "Wiewohl mein Herz in Tränen schwimmt,\nDaß Jesus von mir Abschied nimmt,\nso macht mich doch sein Testament erfreut:\nSein Fleisch und Blut, o Kostbarkeit,\nVermacht er mir in meine Hände.\nWie er es auf der Welt mit denen Seinen\nNicht böse können meinen,\nso liebt er sie bis an das Ende."}
     ],
@@ -230,7 +230,7 @@ const movements = [
     titleDe: "Ich will dir mein Herze schenken",
     titleEn: "I will give Thee my heart",
     voicing: "Soprano",
-    duration: 4.0,
+    duration: 3.23,
     german: [
       {s: "Soprano", t: "Ich will dir mein Herze schenken,\nSenke dich, mein Heil, hinein!\nIch will mich in dir versenken;\nIst dir gleich die Welt zu klein,\nEi, so sollst du mir allein\nMehr als Welt und Himmel sein."}
     ],
@@ -244,7 +244,7 @@ const movements = [
     titleDe: "Und da sie den Lobgesang gesprochen hatten",
     titleEn: "And when they had sung a hymn",
     voicing: "Evangelist (Tenor), Jesus (Bass)",
-    duration: 2.0,
+    duration: 0.96,
     german: [
       {s: "Evangelist", t: "Und da sie den Lobgesang gesprochen hatten, gingen sie hinaus an den Ölberg. Da sprach Jesus zu ihnen:"},
       {s: "Jesus", t: "In dieser Nacht werdet ihr euch alle ärgern an mir. Denn es stehet geschrieben: \"Ich werde den Hirten schlagen, und die Schafe der Herde werden sich zerstreuen.\" Wenn ich aber auferstehe, will ich vor euch hingehen in Galiläam."}
@@ -260,7 +260,7 @@ const movements = [
     titleDe: "Erkenne mich, mein Hüter",
     titleEn: "Receive me, my Redeemer",
     voicing: "Chorus I & II",
-    duration: 1.0,
+    duration: 0.98,
     german: [
       {s: "Chorus", t: "Erkenne mich, mein Hüter,\nMein Hirte, nimm mich an!\nVon dir, Quell aller Güter,\nIst mir viel Guts getan.\nDein Mund hat mich gelabet\nMit Milch und süßer Kost,\nDein Geist hat mich begabet\nMit mancher Himmelslust."}
     ],
@@ -274,7 +274,7 @@ const movements = [
     titleDe: "Petrus aber antwortete und sprach zu ihm",
     titleEn: "Peter answered and said unto Him",
     voicing: "Evangelist (Tenor), Jesus (Bass), Peter (Bass)",
-    duration: 1.5,
+    duration: 0.92,
     german: [
       {s: "Evangelist", t: "Petrus aber antwortete und sprach zu ihm:"},
       {s: "Peter", t: "Wenn sie auch alle sich an dir ärgerten, so will ich doch mich nimmermehr ärgern."},
@@ -300,7 +300,7 @@ const movements = [
     titleDe: "Ich will hier bei dir stehen",
     titleEn: "I would beside Thee stand",
     voicing: "Chorus I & II",
-    duration: 1.0,
+    duration: 1.04,
     german: [
       {s: "Chorus", t: "Ich will hier bei dir stehen,\nVerachte mich doch nicht!\nVon dir will ich nicht gehen,\nWenn dir dein Herze bricht.\nWenn dein Herz wird erblassen\nIm letzten Todesstoß,\nAlsdenn will ich dich fassen,\nIn meinen Arm und Schoß."}
     ],
@@ -314,7 +314,7 @@ const movements = [
     titleDe: "Da kam Jesus mit ihnen zu einem Hofe",
     titleEn: "Then cometh Jesus with them unto a place",
     voicing: "Evangelist (Tenor), Jesus (Bass)",
-    duration: 2.0,
+    duration: 1.49,
     german: [
       {s: "Evangelist", t: "Da kam Jesus mit ihnen zu einem Hofe, der hieß Gethsemane, und sprach zu seinen Jüngern:"},
       {s: "Jesus", t: "Setzet euch hie, bis daß ich dort hingehe und bete."},
@@ -334,7 +334,7 @@ const movements = [
     titleDe: "O Schmerz! Hier zittert das gequälte Herz",
     titleEn: "O grief! Here trembles the tormented heart",
     voicing: "Tenor, Chorus II",
-    duration: 2.5,
+    duration: 1.96,
     german: [
       {s: "Tenor", t: "O Schmerz!\nHier zittert das gequälte Herz;\nwie sinkt es hin, wie bleicht sein Angesicht!\nWas ist die Ursach aller solcher Plagen?\nDer Richter führt ihn vor Gericht.\nDa ist kein Trost, kein Helfer nicht.\nAch! meine Sünden haben dich geschlagen;\nEr leidet alle Höllenqualen,\nEr soll vor fremden Raub bezahlen.\nIch, ach, Herr Jesu, habe dies verschuldet,\nwas du erduldet.\nAch, könnte meine Liebe dir,\nMein Heil, dein Zittern und dein Zagen\nvermindern oder helfen tragen,\nWie gerne blieb ich hier!"}
     ],
@@ -348,7 +348,7 @@ const movements = [
     titleDe: "Ich will bei meinem Jesu wachen",
     titleEn: "I would beside my Lord be watching",
     voicing: "Tenor, Chorus II",
-    duration: 6.0,
+    duration: 4.93,
     german: [
       {s: "Tenor", t: "Ich will bei meinem Jesu wachen,"},
       {s: "Chorus II", t: "So schlafen unsre Sünden ein."},
@@ -368,7 +368,7 @@ const movements = [
     titleDe: "Und ging hin ein wenig",
     titleEn: "And He went a little further",
     voicing: "Evangelist (Tenor), Jesus (Bass)",
-    duration: 2.0,
+    duration: 0.68,
     german: [
       {s: "Evangelist", t: "Und ging hin ein wenig, fiel nieder auf sein Angesicht und betete und sprach:"},
       {s: "Jesus", t: "Mein Vater, ist's möglich, so gehe diese Kelch von mir; doch nicht wie ich will, sondern wie du willt."}
@@ -384,7 +384,7 @@ const movements = [
     titleDe: "Der Heiland fällt vor seinem Vater nieder",
     titleEn: "The Savior falls before His Father down",
     voicing: "Bass",
-    duration: 1.0,
+    duration: 0.91,
     german: [
       {s: "Bass", t: "Der Heiland fällt vor seinem Vater nieder;\nDadurch erhebt er sich und alle\nvon unserm Falle\nHinauf zu Gottes Gnade wieder.\nEr ist bereit,\nDen Kelch, des Todes Bitterkeit\nzu trinken,\nIn welchen Sünden dieser Welt\nGegossen sind und häßlich stinken,\nWeil es dem lieben Gott gefällt."}
     ],
@@ -398,7 +398,7 @@ const movements = [
     titleDe: "Gerne will ich mich bequemen",
     titleEn: "Gladly will I submit myself",
     voicing: "Bass",
-    duration: 3.5,
+    duration: 3.87,
     german: [
       {s: "Bass", t: "Gerne will ich mich bequemen,\nKreuz und Becher anzunehmen,\nTrink ich doch dem Heiland nach.\nDenn sein Mund,\nDer mit Milch und Honig fließet,\nHat den Grund\nund des Leidens herbe Schmach\nDurch den ersten Trunk versüßet."}
     ],
@@ -412,7 +412,7 @@ const movements = [
     titleDe: "Und er kam zu seinen Jüngern",
     titleEn: "And He cometh unto the disciples",
     voicing: "Evangelist (Tenor), Jesus (Bass)",
-    duration: 2.0,
+    duration: 1.19,
     german: [
       {s: "Evangelist", t: "Und er kam zu seinen Jüngern und fand sie schlafend und sprach zu ihnen:"},
       {s: "Jesus", t: "Könnet ihr denn nicht eine Stunde mit mir wachen? Wachet, und betet, daß ihr nicht in Anfechtung fallet! Der Geist ist willig, aber das Fleisch ist schwach."},
@@ -432,7 +432,7 @@ const movements = [
     titleDe: "Was mein Gott will, das g'scheh allzeit",
     titleEn: "What my God wills, let that be done",
     voicing: "Chorus I & II",
-    duration: 1.5,
+    duration: 0.97,
     german: [
       {s: "Chorus", t: "Was mein Gott will, das gscheh allzeit,\nSein Will, der ist der beste,\nZu helfen den' er ist bereit,\nDie an ihn glauben feste.\nEr hilft aus Not, der fromme Gott,\nUnd züchtiget mit Maßen.\nWer Gott vertraut, fest auf ihn baut,\nDen will er nicht verlassen."}
     ],
@@ -446,7 +446,7 @@ const movements = [
     titleDe: "Und er kam und fand sie aber schlafend",
     titleEn: "And He came and found them asleep again",
     voicing: "Evangelist (Tenor), Jesus (Bass), Judas (Bass)",
-    duration: 3.5,
+    duration: 2.29,
     german: [
       {s: "Evangelist", t: "Und er kam und fand sie aber schlafend, und ihre Augen waren voll Schlafs. Und er ließ sie und ging abermal hin und betete zum drittenmal und redete dieselbigen Worte. Da kam er zu seinen Jüngern und sprach zu ihnen:"},
       {s: "Jesus", t: "Ach! Wollt ihr nun schlafen und ruhen? Siehe, die Stunde ist hie, daß des Menschen Sohn in der Sünder Hände überantwortet wird. Stehet auf, lasset uns gehen; siehe, er ist da der mich verrät."},
@@ -472,7 +472,7 @@ const movements = [
     titleDe: "So ist mein Jesus nun gefangen",
     titleEn: "So is my Jesus now taken",
     voicing: "Soprano, Alto, Chorus II",
-    duration: 5.0,
+    duration: 5.04,
     german: [
       {s: "Soprano / Alto", t: "So ist mein Jesus nun gefangen."},
       {s: "Chorus II", t: "Laßt ihn, haltet, bindet nicht!"},
@@ -492,7 +492,7 @@ const movements = [
     titleDe: "Und siehe, einer aus denen, die mit Jesu waren",
     titleEn: "And behold, one of them which were with Jesus",
     voicing: "Evangelist (Tenor), Jesus (Bass)",
-    duration: 3.0,
+    duration: 2.02,
     german: [
       {s: "Evangelist", t: "Und siehe, einer aus denen, die mit Jesu waren, reckete die Hand aus, und schlug des Hohenpriesters Knecht und hieb ihm ein Ohr ab. Da sprach Jesus zu ihm:"},
       {s: "Jesus", t: "Stecke dein Schwert an seinen Ort; denn wer das Schwert nimmt, der soll durchs Schwert umkommen. Oder meinest du, daß ich nicht könnte meinen Vater bitten, daß er mir zuschickte mehr denn zwölf Legion Engel? Wie würde aber die Schrift erfüllet? Es muß also gehen."},
@@ -514,7 +514,7 @@ const movements = [
     titleDe: "O Mensch, bewein dein Sünde groß",
     titleEn: "O man, bewail thy grievous sin",
     voicing: "Chorus I & II",
-    duration: 6.0,
+    duration: 5.58,
     german: [
       {s: "Chorus", t: "O Mensch, bewein dein Sünde groß,\nDarum Christus seins Vaters Schoß\nÄußert und kam auf Erden;\nVon einer Jungfrau rein und zart\nFür uns er hie geboren ward,\nEr wollt der Mittler werden,\nDen Toten er das Leben gab\nUnd legt dabei all Krankheit ab\nBis sich die Zeit herdrange,\nDaß er für uns geopfert würd,\nTrüg unser Sünden schwere Bürd\nWohl an dem Kreuze lange."}
     ],
@@ -529,7 +529,7 @@ const movements = [
     titleDe: "Ach, nun ist mein Jesus hin!",
     titleEn: "Alas, now is my Jesus gone!",
     voicing: "Alto, Chorus II",
-    duration: 5.0,
+    duration: 3.46,
     german: [
       {s: "Alto", t: "Ach, nun ist mein Jesus hin!"},
       {s: "Chorus II", t: "Wo ist denn dein Freund hingegangen,\nO du Schönste unter den Weibern?"},
@@ -555,7 +555,7 @@ const movements = [
     titleDe: "Die aber Jesum gegriffen hatten",
     titleEn: "And they that had laid hold on Jesus",
     voicing: "Evangelist (Tenor)",
-    duration: 2.0,
+    duration: 1.04,
     german: [
       {s: "Evangelist", t: "Die aber Jesum gegriffen hatten, führeten ihn zu dem Hohenpriester Kaiphas, dahin die Schriftgelehrten und Ältesten sich versammlet hatten. Petrus aber folgete ihm nach von ferne bis in den Palast des Hohenpriesters und ging hinein und satzte sich bei die Knechte, auf daß er sähe, wo es hinaus wollte. Die Hohenpriester aber und Ältesten und der ganze Rat suchten falsche Zeugnis wider Jesum, auf daß sie ihn töteten, und funden keines."}
     ],
@@ -569,7 +569,7 @@ const movements = [
     titleDe: "Mir hat die Welt trüglich gericht'",
     titleEn: "The world has judged me falsely",
     voicing: "Chorus I & II",
-    duration: 1.0,
+    duration: 0.65,
     german: [
       {s: "Chorus", t: "Mir hat die Welt trüglich gericht'\nMit Lügen und mit falschem Gdicht,\nViel Netz und heimlich Strikke.\nHerr, nimm mein wahr\nIn dieser Gfahr,\nBhüt mich für falschen Tükken!"}
     ],
@@ -583,7 +583,7 @@ const movements = [
     titleDe: "Und wiewohl viel falsche Zeugen herzutraten",
     titleEn: "Yet though many false witnesses came",
     voicing: "Evangelist (Tenor), Witnesses, High Priest (Bass)",
-    duration: 2.0,
+    duration: 1.19,
     german: [
       {s: "Evangelist", t: "Und wiewohl viel falsche Zeugen herzutraten, funden sie doch keins. Zuletzt traten herzu zween falsche Zeugen und sprachen:"},
       {s: "Witnesses", t: "Er hat gesagt: Ich kann den Tempel Gottes abbrechen und in dreien Tagen denselben bauen."},
@@ -605,7 +605,7 @@ const movements = [
     titleDe: "Mein Jesus schweigt zu falschen Lügen stille",
     titleEn: "My Jesus remains silent to false lies",
     voicing: "Tenor",
-    duration: 1.0,
+    duration: 1.07,
     german: [
       {s: "Tenor", t: "Mein Jesus schweigt\nZu falschen Lügen stille,\nUm uns damit zu zeigen,\nDaß sein erbarmensvoller Wille\nvor uns zum Leiden sei geneigt,\nUnd daß wir in dergleichen Pein\nIhm sollen ähnlich sein\nUnd in Verfolgung stille schweigen."}
     ],
@@ -619,7 +619,7 @@ const movements = [
     titleDe: "Geduld! Wenn mich falsche Zungen stechen",
     titleEn: "Patience! When false tongues do sting me",
     voicing: "Tenor",
-    duration: 3.5,
+    duration: 3.79,
     german: [
       {s: "Tenor", t: "Geduld, Geduld!\nWenn mich falsche Zungen stechen.\nLeid ich wider meine Schuld\nSchimpf und Spott,\nEi, so mag der liebe Gott\nMeines Herzens Unschuld rächen."}
     ],
@@ -633,7 +633,7 @@ const movements = [
     titleDe: "Und der Hohepriester antwortete",
     titleEn: "And the high priest answered",
     voicing: "Evangelist (Tenor), Jesus (Bass), High Priest (Bass), Chorus I & II",
-    duration: 3.0,
+    duration: 1.97,
     german: [
       {s: "Evangelist", t: "Und der Hohenpriester antwortete und sprach zu ihm:"},
       {s: "High Priest", t: "Ich beschwöre dich bei dem lebendigen Gott, daß du uns sagest, ob du seiest Christus, der Sohn Gottes?"},
@@ -665,7 +665,7 @@ const movements = [
     titleDe: "Wer hat dich so geschlagen",
     titleEn: "Who was it that did smite Thee",
     voicing: "Chorus I & II",
-    duration: 1.5,
+    duration: 0.98,
     german: [
       {s: "Chorus", t: "Wer hat dich so geschlagen,\nMein Heil, und dich mit Plagen\nSo übel zugericht'?\nDu bist ja nicht ein Sünder\nWie wir und unsre Kinder,\nVon Missetaten weißt du nicht."}
     ],
@@ -679,7 +679,7 @@ const movements = [
     titleDe: "Petrus aber saß draußen im Palast",
     titleEn: "Now Peter sat without in the palace",
     voicing: "Evangelist (Tenor), Maids (Soprano), Peter (Bass)",
-    duration: 3.0,
+    duration: 2.45,
     german: [
       {s: "Evangelist", t: "Petrus aber saß draußen im Palast; und es trat zu ihm eine Magd und sprach:"},
       {s: "Maid I", t: "Und du warest auch mit dem Jesus aus Galiläa."},
@@ -717,7 +717,7 @@ const movements = [
     titleDe: "Erbarme dich, mein Gott",
     titleEn: "Have mercy, my God",
     voicing: "Alto, Violin solo",
-    duration: 7.0,
+    duration: 7.05,
     german: [
       {s: "Alto", t: "Erbarme dich, mein Gott,\nUm meiner Zähren Willen!\nSchaue hier, Herz und Auge\nWeint vor dir bitterlich.\nErbarme dich, erbarme dich!"}
     ],
@@ -731,7 +731,7 @@ const movements = [
     titleDe: "Bin ich gleich von dir gewichen",
     titleEn: "Though I have from Thee departed",
     voicing: "Chorus I & II",
-    duration: 1.0,
+    duration: 1.01,
     german: [
       {s: "Chorus", t: "Bin ich gleich von dir gewichen,\nStell ich mich doch wieder ein;\nHat uns doch dein Sohn verglichen\nDurch sein Angst und Todespein.\nIch verleugne nicht die Schuld,\nAber deine Gnad und Huld\nIst viel größer als die Sünde,\nDie ich stets in mir befinde."}
     ],
@@ -745,7 +745,7 @@ const movements = [
     titleDe: "Des Morgens aber hielten alle Hohenpriester",
     titleEn: "When the morning was come",
     voicing: "Evangelist (Tenor), Judas (Bass)",
-    duration: 3.0,
+    duration: 1.73,
     german: [
       {s: "Evangelist", t: "Des Morgens aber hielten alle Hohepriester und die Ältesten des Volks einen Rat über Jesum, daß sie ihn töteten. Und bunden ihn, führeten ihn hin und überantworteten ihn dem Landpfleger Pontio Pilato. Da das sahe Judas, der ihn verraten hatte, daß er verdammt war zum Tode, gereuete es ihn, und brachte herwieder die dreißig Silberlinge den Hohenpriestern und Ältesten und sprach:"},
       {s: "Judas", t: "Ich habe übel getan, daß ich unschuldig Blut verraten habe."},
@@ -769,7 +769,7 @@ const movements = [
     titleDe: "Gebt mir meinen Jesum wieder!",
     titleEn: "Give me back my Jesus!",
     voicing: "Bass",
-    duration: 4.0,
+    duration: 2.75,
     german: [
       {s: "Bass", t: "Gebt mir meinen Jesum wieder!\nSeht das Geld, den Mörderlohn,\nWirft euch der verlorne Sohn\nZu den Füßen nieder!"}
     ],
@@ -783,7 +783,7 @@ const movements = [
     titleDe: "Sie hielten aber einen Rat",
     titleEn: "And they took counsel",
     voicing: "Evangelist (Tenor), Pilate (Bass), Jesus (Bass)",
-    duration: 2.5,
+    duration: 2.08,
     german: [
       {s: "Evangelist", t: "Sie hielten aber einen Rat und kauften einen Töpfersakker darum zum Begräbnis der Pilger. Daher ist derselbige Akker genennet der Blutakker bis auf den heutigen Tag. Da ist erfüllet, das gesaget ist durch den Propheten Jeremias, da er spricht: \"Sie haben genommen dreißig Silberlinge, damit bezahlet ward der Verkaufte, welchen sie kauften von den Kinder Israel, und haben sie gegeben um einen Töpfersakker, als mir der Herr befohlen hat.\" Jesus aber stund vor der Landpfleger; und der Landpfleger fragte ihn und sprach:"},
       {s: "Pilate", t: "Bist du der Jüden König?"},
@@ -809,7 +809,7 @@ const movements = [
     titleDe: "Befiehl du deine Wege",
     titleEn: "Commit thy way to God",
     voicing: "Chorus I & II",
-    duration: 1.5,
+    duration: 1.1,
     german: [
       {s: "Chorus", t: "Befiel du deine Wege,\nund was dein Herze kränkt,\nDer allertreusten Pflege,\nDes, der den Himmel lenkt,\nDer Wolken, Luft und Winden\nGibt Wege, Lauf, und Bahn,\nEr will auch Wege finden\nDaß dein Fuß gehen kann."}
     ],
@@ -823,7 +823,7 @@ const movements = [
     titleDe: "Auf das Fest aber hatte der Landpfleger Gewohnheit",
     titleEn: "Now at that feast the governor was wont",
     voicing: "Evangelist (Tenor), Pilate (Bass), Wife (Soprano), Chorus I & II",
-    duration: 4.0,
+    duration: 2.19,
     german: [
       {s: "Evangelist", t: "Auf das Fest aber hatte der Landpfleger Gewohnheit, dem Volk einen Gefangenen loszugeben, welchen sie wollten. Er hatte aber zu der Zeit einen Gefangenen, einen sonderlichen von andern, der hieß Barrabas. Und da sie versammlet waren, sprach Pilatus zu ihnen:"},
       {s: "Pilate", t: "Welchen wollt ihr, daß ich euch losgebe? Barrabam oder Jesum, von dem gesaget wird, er sei Christus?"},
@@ -859,7 +859,7 @@ const movements = [
     titleDe: "Wie wunderbarlich ist doch diese Strafe!",
     titleEn: "How wondrous is this punishment!",
     voicing: "Chorus I & II",
-    duration: 1.0,
+    duration: 0.71,
     german: [
       {s: "Chorus", t: "Wie wunderbarlich ist doch diese Strafe!\nDie gute Hirte leidet für die Schafe,\nDie Schuld bezahlt der Herre, der Gerechte,\nFür seine Knechte."}
     ],
@@ -873,7 +873,7 @@ const movements = [
     titleDe: "Der Landpfleger sagte",
     titleEn: "The governor said",
     voicing: "Evangelist (Tenor), Pilate (Bass)",
-    duration: 1.0,
+    duration: 0.29,
     german: [
       {s: "Evangelist", t: "Der Landpfleger sagte:"},
       {s: "Pilate", t: "Was hat er denn Übels getan?"}
@@ -889,7 +889,7 @@ const movements = [
     titleDe: "Er hat uns allen wohlgetan",
     titleEn: "He has done good to us all",
     voicing: "Soprano",
-    duration: 1.5,
+    duration: 1.26,
     german: [
       {s: "Soprano", t: "Er hat uns allen wohlgetan,\nden Blinden gab er das Gesicht,\nDie Lahmen macht' er gehend,\nEr sagt' uns seines Vaters Wort,\nEr trieb die Teufel fort,\nBetrübte hat er aufgericht',\nEr nahm die Sünder auf und an,\nSonst hat mein Jesus nichts getan."}
     ],
@@ -903,7 +903,7 @@ const movements = [
     titleDe: "Aus Liebe will mein Heiland sterben",
     titleEn: "Out of love my Savior is willing to die",
     voicing: "Soprano",
-    duration: 5.0,
+    duration: 5.46,
     german: [
       {s: "Soprano", t: "Aus Liebe will mein Heiland sterben,\nVon einer Sünde weiß er nichts,\nDaß das ewigen Verderben\nund die Strafe des Gerichts\nNicht auf meiner Seele bliebe."}
     ],
@@ -917,7 +917,7 @@ const movements = [
     titleDe: "Sie schrieen aber noch mehr",
     titleEn: "But they cried out all the more",
     voicing: "Evangelist (Tenor), Pilate (Bass), Chorus I & II",
-    duration: 3.0,
+    duration: 1.78,
     german: [
       {s: "Evangelist", t: "Sie schrieen aber noch mehr und sprachen:"},
       {s: "Chorus I & II", t: "Laß ihn kreuzigen!"},
@@ -943,7 +943,7 @@ const movements = [
     titleDe: "Erbarm es Gott!",
     titleEn: "God have mercy!",
     voicing: "Alto",
-    duration: 1.5,
+    duration: 1.0,
     german: [
       {s: "Alto", t: "Erbarm es, Gott!\nHier steht der Heiland angebunden.\nO Geißelung, o Schläg, o Wunden!\nIhr Henker, haltet ein!\nErweichet euch der Seelen Schmerz,\nDer Anblick solches Jammers nicht?\nAch ja! ihr habt ein Herz,\nDas muß der Martersäule gleich\nUnd noch viel härter sein.\nErbarmt euch, haltet ein!"}
     ],
@@ -957,7 +957,7 @@ const movements = [
     titleDe: "Können Tränen meiner Wangen",
     titleEn: "If the tears upon my cheeks",
     voicing: "Alto",
-    duration: 5.5,
+    duration: 6.33,
     german: [
       {s: "Alto", t: "Können Tränen meiner Wangen\nNichts erlangen,\nO so nehmt mein Herz hinein!\nAber laßt es bei den Fluten,\nWenn die Wunden milde bluten,\nAuch die Opferschale sein."}
     ],
@@ -972,7 +972,7 @@ const movements = [
     titleDe: "Da nahmen die Kriegsknechte des Landpflegers",
     titleEn: "Then the soldiers of the governor",
     voicing: "Evangelist (Tenor), Chorus I & II",
-    duration: 2.5,
+    duration: 1.12,
     german: [
       {s: "Evangelist", t: "Da nahmen die Kriegsknechte des Landpflegers Jesum zu sich in das Richthaus und sammleten über ihn die ganze Schar und zogen ihn aus und legeten ihm einen Purpurmantel an und flochten eine dornene Krone und satzten sie auf sein Haupt, und ein Rohr in seine rechte Hand, und beugeten die Knie vor ihm und spotteten ihn und sprachen:"},
       {s: "Chorus I & II", t: "Gegrüßet seist du, Jüdenkönig!"},
@@ -990,7 +990,7 @@ const movements = [
     titleDe: "O Haupt voll Blut und Wunden",
     titleEn: "O sacred head now wounded",
     voicing: "Chorus I & II",
-    duration: 1.5,
+    duration: 1.97,
     german: [
       {s: "Chorus", t: "O Haupt, voll Blut und Wunden,\nvoll Schmerz und voller Hohn!\nO Haupt, zu Spott gebunden\nmit einer Dornenkron!\nO Haupt, sonst schön gezieret\nMit höchster Ehr und Zier,\nJetzt aber hoch schimpfieret:\nGegrüsset seist du mir!\n\nDu edles Angesichte,\nDafür sonst schrickt und scheut\nDas große Weltgewichte,\nWie bist du so verspeit,\nWie bist du so erbleichet!\nWer hat dein Augenlicht,\nDem sonst kein Licht nicht gleichet,\nso schändlich zugericht'?"}
     ],
@@ -1004,7 +1004,7 @@ const movements = [
     titleDe: "Und da sie ihn verspottet hatten",
     titleEn: "And after that they had mocked Him",
     voicing: "Evangelist (Tenor)",
-    duration: 1.5,
+    duration: 1.15,
     german: [
       {s: "Evangelist", t: "Und da sie ihn verspottet hatten, zogen sie ihm den Mantel aus und zogen ihm seine Kleider an und führeten ihn hin, daß sie ihn kreuzigten. Und indem sie hinausgingen, funden sie einen Menschen von Kyrene mit Namen Simon; den zwungen sie, daß er ihm sein Kreuz trug."}
     ],
@@ -1018,7 +1018,7 @@ const movements = [
     titleDe: "Ja, freilich will in uns das Fleisch und Blut",
     titleEn: "Yes, truly, the flesh and blood in us",
     voicing: "Bass",
-    duration: 1.0,
+    duration: 0.55,
     german: [
       {s: "Bass", t: "Ja, freilich will in uns das Fleisch und Blut\nZum Kreuz gezwungen sein;\nJe mehr es unsrer Seele gut,\nJe herber geht es ein."}
     ],
@@ -1032,7 +1032,7 @@ const movements = [
     titleDe: "Komm, süßes Kreuz",
     titleEn: "Come, sweet cross",
     voicing: "Bass, Viola da gamba",
-    duration: 6.0,
+    duration: 6.27,
     german: [
       {s: "Bass", t: "Komm, süßes Kreuz, so will ich sagen,\nMein Jesu, gib es immer her!\nWird mein Leiden einst zu schwer,\nSo hilfst du mir es selber tragen."}
     ],
@@ -1046,7 +1046,7 @@ const movements = [
     titleDe: "Und da sie an die Stätte kamen",
     titleEn: "And when they were come unto a place",
     voicing: "Evangelist (Tenor), Chorus I & II",
-    duration: 4.0,
+    duration: 3.33,
     german: [
       {s: "Evangelist", t: "Und da sie an die Stätte kamen mit Namen Golgatha, das ist verdeutschet Schädelstätt, gaben sie ihm Essig zu trinken mit Gallen vermischet; und da ers schmeckete, wollte ers nicht trinken. Da sie ihn aber gekreuziget hatten, teilten sie seine Kleider und wurfen das Los darum, auf das erfüllet würde, das gesaget ist durch den Propheten: \"Sie haben meine Kleider unter sich geteilet, und über mein Gewand haben sie das Los geworfen.\" Und sie saßen allda und hüteten sein. Und oben zu seinem Häupten hefteten sie die Ursach seines Todes geschrieben, nähmlich: \"Dies ist Jesus, der Jüdenkönig.\" Und da wurden zween Mörder mit ihm gekreuziget, einer zur Rechten und einer zur Linken. Die aber vorübergingen, lästerten ihn und schüttelten ihre Köpfe und sprachen:"},
       {s: "Chorus I & II", t: "Der du den Tempel Gottes zerbrichst und bauest ihn in dreien Tagen, hilf dir selber! Bist du Gottes Sohn, so steig herab vom Kreuz!"},
@@ -1068,7 +1068,7 @@ const movements = [
     titleDe: "Ach Golgatha, unsel'ges Golgatha!",
     titleEn: "Ah, Golgotha, unhappy Golgotha!",
     voicing: "Alto",
-    duration: 1.5,
+    duration: 1.35,
     german: [
       {s: "Alto", t: "Ach Golgatha, unselges Golgatha!\nDer Herr der Herrlichkeit\nMuß schimpflich hier verderben,\nDer Segen und das Heil der Welt\nWird als ein Fluch ans Kreuz gestellt.\nDer Schöpfer Himmels und der Erden\nSoll Erd und Luft entzogen werden.\nDie Unschuld muß hier schuldig sterben,\nDas gehet meiner Seele nah;\nAch Golgatha, unselges Golgatha!"}
     ],
@@ -1082,7 +1082,7 @@ const movements = [
     titleDe: "Sehet, Jesus hat die Hand",
     titleEn: "See ye, Jesus hath His hand",
     voicing: "Alto, Chorus II",
-    duration: 4.0,
+    duration: 3.12,
     german: [
       {s: "Alto", t: "Sehet, Jesus hat die Hand\nUns zu fassen ausgespannt,"},
       {s: "Chorus II", t: "Kommt! – Wohin? – In Jesu Armen\nSucht Erlösung, nehmt Erbarmen,\nSuchet! – Wo? – In Jesu Armen."},
@@ -1102,7 +1102,7 @@ const movements = [
     titleDe: "Und von der sechsten Stunde an",
     titleEn: "Now from the sixth hour",
     voicing: "Evangelist (Tenor), Jesus (Bass)",
-    duration: 4.0,
+    duration: 2.4,
     german: [
       {s: "Evangelist", t: "Und von der sechsten Stunde an war eine Finsternis über das ganze Land bis zu der neunten Stunde. Und um die neunte Stunde schriee Jesus laut und sprach:"},
       {s: "Jesus", t: "Eli, Eli, lama asabthani?"},
@@ -1128,7 +1128,7 @@ const movements = [
     titleDe: "Wenn ich einmal soll scheiden",
     titleEn: "When I must depart one day",
     voicing: "Chorus I & II",
-    duration: 2.0,
+    duration: 1.74,
     german: [
       {s: "Chorus", t: "Wenn ich einmal soll scheiden,\nSo scheide nicht von mir,\nWenn ich den Tod soll leiden,\nSo tritt du denn herfür!\nWenn mir am allerbängsten\nWird um das Herze sein,\nSo reiß mich aus den Ängsten\nKraft deiner Angst und Pein."}
     ],
@@ -1142,7 +1142,7 @@ const movements = [
     titleDe: "Und siehe da, der Vorhang im Tempel zerriß",
     titleEn: "And, behold, the veil of the temple was rent",
     voicing: "Evangelist (Tenor)",
-    duration: 3.0,
+    duration: 2.58,
     german: [
       {s: "Evangelist", t: "Und siehe da, der Vorhang im Tempel zerriß in zwei Stück von obenan bis untenaus. Und die Erde erbebete, und die Felsen zerrissen, und die Gräber täten sich auf, und stunden auf viel Leiber der Heiligen, die da schliefen, und gingen aus den Gräbern nach seiner Auferstehung und kamen in die heilige Stadt und erschienen vielen. Aber der Hauptmann und die bei ihm waren und bewahreten Jesum, da sie sahen das Erdbeben und was da geschah, erschraken sie sehr und sprachen:"},
       {s: "Chorus I & II", t: "Wahrlich, dieser ist Gottes Sohn gewesen."},
@@ -1160,7 +1160,7 @@ const movements = [
     titleDe: "Am Abend, da es kühle war",
     titleEn: "At evening, when it was cool",
     voicing: "Bass",
-    duration: 2.5,
+    duration: 1.83,
     german: [
       {s: "Bass", t: "Am Abend, da es kühle war,\nWard Adams Fallen offenbar;\nAm Abend drücket ihn der Heiland nieder.\nAm Abend kam die Taube wieder,\nUnd trug ein Ölblatt in dem Munde.\nO schöne Zeit! O Abendstunde!\nDer Friedensschluß ist nun mit Gott gemacht,\nDenn Jesus hat sein Kreuz vollbracht.\nSein Leichnam kömmt zur Ruh,\nAch! liebe Seele, bitte du,\nGeh, lasse dir den toten Jesum schenken,\nO heilsames, o köstlichs Angedenken!"}
     ],
@@ -1174,7 +1174,7 @@ const movements = [
     titleDe: "Mache dich, mein Herze, rein",
     titleEn: "Make thee clean, my heart",
     voicing: "Bass",
-    duration: 6.5,
+    duration: 6.6,
     german: [
       {s: "Bass", t: "Mache dich, mein Herze, rein,\nIch will Jesum selbst begraben.\nDenn er soll nunmehr in mir\nFür und für\nSeine süße Ruhe haben.\nWelt, geh aus, laß Jesum ein!"}
     ],
@@ -1188,7 +1188,7 @@ const movements = [
     titleDe: "Und Joseph nahm den Leib",
     titleEn: "And when Joseph had taken the body",
     voicing: "Evangelist (Tenor), Pilate (Bass), Chorus I & II",
-    duration: 3.5,
+    duration: 2.59,
     german: [
       {s: "Evangelist", t: "Und Joseph nahm den Leib und wickelte ihn in ein rein Leinwand, und legte ihn in sein eigen neu Grab, welches er hatte in einen Fels hauen, und wälzete einen großen Stein vor die Tür des Grabes, und ging davon. Es war aber allda Maria Magdalena und die andere Maria, die satzten sich gegen das Grab. Des andern Tages, der da folget nach dem Rüsttage, kamen die Hohenpriester und Pharisäer sämtlich zu Pilato und sprachen:"},
       {s: "Chorus I & II", t: "Herr, wir haben gedacht, daß dieser Verführer sprach, da er noch lebete: \"Ich will nach dreien Tagen wieder auferstehen.\" Darum befiehl, daß man das Grab verwahre bis an den dritten Tag, auf daß nicht seine Jünger kommen und stehlen ihn, und sagen zu dem Volk: \"Er ist auferstanden von den Toten,\" und werde der letzte Betrug ärger denn der erste!"},
@@ -1210,7 +1210,7 @@ const movements = [
     titleDe: "Nun ist der Herr zur Ruh gebracht",
     titleEn: "Now the Lord is laid to rest",
     voicing: "Soprano, Alto, Tenor, Bass, Chorus II",
-    duration: 2.5,
+    duration: 1.84,
     german: [
       {s: "Soloists", t: "Nun ist der Herr zur Ruh gebracht."},
       {s: "Chorus II", t: "Mein Jesu, gute Nacht!"},
@@ -1238,7 +1238,7 @@ const movements = [
     titleDe: "Wir setzen uns mit Tränen nieder",
     titleEn: "We sit down in tears",
     voicing: "Chorus I & II",
-    duration: 6.0,
+    duration: 5.31,
     german: [
       {s: "Chorus I & II", t: "Wir setzen uns mit Tränen nieder\nUnd rufen dir im Grabe zu:\nRuhe sanfte, sanfte ruh!\nRuht, ihr ausgesognen Glieder!\n– Ruhet sanfte, ruhet wohl. –\nEuer Grab und Leichenstein\nSoll den ängstlichen Gewissen\nEin bequemes Ruhekissen\nUnd der Seelen Ruhstatt sein.\n– Ruhet sanfte, sanfte ruht! –\nHöchst vergnügt\nSchlummern da die Augen ein."}
     ],
