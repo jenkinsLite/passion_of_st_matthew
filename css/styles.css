@@ -60,52 +60,6 @@ body {
   pointer-events: none;
 }
 
-/* Decorative cross */
-.hero-cross {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: .06;
-  pointer-events: none;
-}
-.cross-vertical {
-  width: 6px;
-  height: 220px;
-  background: var(--gold);
-  position: absolute;
-  left: 50%;
-  top: -110px;
-  transform: translateX(-50%);
-  border-radius: 3px;
-}
-.cross-horizontal {
-  width: 140px;
-  height: 6px;
-  background: var(--gold);
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 3px;
-}
-
-/* Floating music notes */
-.hero-notes {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  overflow: hidden;
-}
-.note {
-  position: absolute;
-  color: var(--gold);
-  opacity: .08;
-}
-.note-1 { width: 40px; top: 15%; left: 8%;  transform: rotate(-15deg); }
-.note-2 { width: 32px; top: 60%; right: 10%; transform: rotate(20deg); }
-.note-3 { width: 28px; top: 30%; right: 25%; transform: rotate(-8deg); }
-
 .hero-content {
   position: relative;
   z-index: 1;
