@@ -336,10 +336,22 @@ const movements = [
     voicing: "Tenor, Chorus II",
     duration: 1.96,
     german: [
-      {s: "Tenor", t: "O Schmerz!\nHier zittert das gequälte Herz;\nwie sinkt es hin, wie bleicht sein Angesicht!\nWas ist die Ursach aller solcher Plagen?\nDer Richter führt ihn vor Gericht.\nDa ist kein Trost, kein Helfer nicht.\nAch! meine Sünden haben dich geschlagen;\nEr leidet alle Höllenqualen,\nEr soll vor fremden Raub bezahlen.\nIch, ach, Herr Jesu, habe dies verschuldet,\nwas du erduldet.\nAch, könnte meine Liebe dir,\nMein Heil, dein Zittern und dein Zagen\nvermindern oder helfen tragen,\nWie gerne blieb ich hier!"}
+      {s: "Tenor", t: "O Schmerz!\nHier zittert das gequälte Herz;\nwie sinkt es hin, wie bleicht sein Angesicht!\n"},
+      {s: "Chorus, II", t: "Was ist die Ursach aller solcher Plagen?\n"},
+      {s: "Tenor", t: "Der Richter führt ihn vor Gericht.\nDa ist kein Trost, kein Helfer nicht.\n"},
+      {s: "Chorus, II", t: "Ach! meine Sünden haben dich geschlagen;\n"},
+      {s: "Tenor", t: "Er leidet alle Höllenqualen,\nEr soll vor fremden Raub bezahlen.\n"},
+      {s: "Chorus II", t: "Ich, ach, Herr Jesu, habe dies verschuldet,\nwas du erduldet.\n"},
+      {s: "Tenor", t: "Ach, könnte meine Liebe dir,\nMein Heil, dein Zittern und dein Zagen\nvermindern oder helfen tragen,\nWie gerne blieb ich hier!"}
     ],
     english: [
-      {s: "Tenor", t: "O pain!\nHere the tormented heart trembles;\nhow it sinks down, how his face pales!\nWhat is the cause of all this trouble?\nThe Judge leads him before judgment.\nNo comfort, no helper is there.\nAlas! My sins have struck you down;\nHe suffers all the torments of Hell,\nhe must pay for the crimes of others.\nI, alas, Lord Jesus, have earned this,\nthat you endure.\nAh! Could my love for you,\nmy Savior, diminish or bring aid\nto your trembling and your despair,\nhow gladly would I stay here!"}
+      {s: "Tenor", t: "O pain!\nHere the tormented heart trembles;\nhow it sinks down, how his face pales!\n"},
+      {s: "Chorus II", t: "What is the cause of all this trouble?\n"},
+      {s: "Tenor", t: "The Judge leads him before judgment.\nNo comfort, no helper is there.\n"},
+      {s: "Chorus II", t: "Alas! My sins have struck you down;\n"},
+      {s: "Tenor", t: "He suffers all the torments of Hell,\nhe must pay for the crimes of others.\n"},
+      {s: "Chorus II", t: "I, alas, Lord Jesus, have earned this,\nthat you endure.\n"},
+      {s: "Tenor", t:"Ah! Could my love for you,\nmy Savior, diminish or bring aid\nto your trembling and your despair,\nhow gladly would I stay here!"}
     ]
   },
   {
